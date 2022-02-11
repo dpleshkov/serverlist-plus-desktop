@@ -1,0 +1,29 @@
+{
+  "name": "serverlist-plus-desktop",
+  "version": "1.0.0",
+  "description": "Desktop version of ServerList+ (https://starblast.dankdmitron.dev)",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js",
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "author": "Dmitry Pleshkov",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "electron": "^17.0.0",
+    "electron-builder": "^22.14.13"
+  },
+  "dependencies": {
+    "starblast-pinger": "^1.1.2"
+  },
+  "build": {
+    "appId": "dev.dankdmitron.serverlistplus",
+    "productName": "ServerList+",
+    "mac": {
+      "category": "public.app-category.games"
+    }
+  }
+}
