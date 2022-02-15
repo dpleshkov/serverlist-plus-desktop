@@ -1,6 +1,6 @@
 {
   "name": "serverlist-plus-desktop",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Desktop version of ServerList+ (https://starblast.dankdmitron.dev)",
   "main": "main.js",
   "scripts": {
