@@ -12,3 +12,28 @@ rather than all the users of the web version of ServerList+.
 ### Installation
 
 Download the appropriate distributable for your system from the releases page.
+
+### Building from source
+
+*Requires Node.js > 15 and Yarn*
+
+Clone the repository
+
+```bash
+git clone https://github.com/dpleshkov/serverlist-plus-desktop
+```
+
+Change into the directory
+
+```bash
+cd serverlist-plus-desktop/
+```
+
+Install dependencies and build
+
+```bash
+yarn install
+yarn dist
+```
+
+Build results should output to the `dist/` directory.
